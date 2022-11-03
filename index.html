@@ -43,19 +43,21 @@
 
         <ul class="auth-nav list">
           <li class="item">
-             <a href="mailto:info@devstudio.com" class="link">
+            <a href="mailto:info@devstudio.com" class="link">
               <svg class="email-svg" width="16px" height="12px">
                 <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>            
-              info@devstudio.com</a>
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
 
           <li class="item">
-             <a href="tel:+380961111111" class="link">
+            <a href="tel:+380961111111" class="link">
               <svg class="email-svg" width="10px" height="16px">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
-               +380961111111</a>
+              +380961111111</a
+            >
           </li>
         </ul>
       </div>
@@ -68,17 +70,20 @@
           <div class="container">
             <div class="main-title">
               <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-              
-              <button data-modal-open type="button" class="button">Замовити послугу</button>
-            
-            <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              
-              <button data-modal-close>Відправити</button>
-            </div>
-            </div>
-            
-            
+
+              <button data-modal-open type="button" class="button">
+                Замовити послугу
+              </button>
+
+              <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                  <button class="modal-btn" data-modal-close>
+                    <svg width="11px" height="11px">
+                      <use href="./images/icons.svg#icon-modal-btn-close"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -149,31 +154,44 @@
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="engage-list">
             <li class="engage-img">
-              <img
-                src="./images/desktop.jpg"
-                alt="Десктопні додатки"
-                width="370"
-                height="294"
-              />
-              <p class="engage-descr">Десктопні додатки</p>
+              <div class="wrapper-image">
+                <img
+                  src="./images/desktop.jpg"
+                  alt="Десктопні додатки"
+                  width="370"
+                  height="300"
+                />
+
+                <div class="engage-descr">
+                  <p>Десктопні додатки</p>
+                </div>
+              </div>
             </li>
             <li class="engage-img">
-              <img
-                src="./images/mobile.jpg"
-                alt="Мобільні додатки"
-                width="370"
-                height="294"
-              />
-              <p class="engage-descr">Мобільні додатки</p>
+              <div class="wrapper-image">
+                <img
+                  src="./images/mobile.jpg"
+                  alt="Мобільні додатки"
+                  width="370"
+                  height="300"
+                />
+                <div class="engage-descr">
+                  <p>Мобільні додатки</p>
+                </div>
+              </div>
             </li>
             <li class="engage-img">
-              <img
-                src="./images/designer.jpg"
-                alt="Дизайнерські рішення"
-                width="370"
-                height="294"
-              />
-              <p class="engage-descr">Дизайнерські рішення</p>
+              <div class="wrapper-image">
+                <img
+                  src="./images/designer.jpg"
+                  alt="Дизайнерські рішення"
+                  width="370"
+                  height="300"
+                />
+                <div class="engage-descr">
+                  <p>Дизайнерські рішення</p>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -507,6 +525,5 @@
     </footer>
 
     <script src="./js/modal.js"></script>
-    
   </body>
 </html>
